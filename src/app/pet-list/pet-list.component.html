@@ -1,0 +1,22 @@
+<h2>Our pet-list</h2>
+
+<ul class="pets">
+   <li *ngFor="let pet of petList" >
+      <a routerLink="/detail/{{pet.id}}" >
+         <span class="badge">{{pet.id}}</span>   
+         {{pet.called}}
+      </a>
+   </li>
+</ul>
+
+<!--Kur paraqitet në kllapa katrore ([]) në të majtë të barabartë (=), 
+    prona i përket disa komponeneteve ose direktivave të tjera; 
+    ajo pronë duhet të zbukurohet me dekoratorin @Input.
+<app-pet-detail [pet]="selectedPet"></app-pet-detail>-->
+
+
+
+
+<!--(click)="onSelect(pet)"   [class.selected]="pet === selectedPet"-->
+   
+
