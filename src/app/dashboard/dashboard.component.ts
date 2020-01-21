@@ -7,27 +7,22 @@ import { PetService } from '../pet.service';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-
-  selectedPet;
-  petList : any;
-
-
+  petList: any;
+  id: any;
   constructor(private petService : PetService) {
   }
 
   ngOnInit() { 
-      this.petService.getPets().subscribe(
-        (data)=>{
-          this.petList = data.slice(1,5);
-          console.log(this.petList); }
-      )
-    }
-    
-    
+    this.petService.getPets().subscribe(
+      (data)=>{
+        this.petList = data.slice(0,3);
+        console.log(this.petList)
+  });
+  }
 
   
-
 }
+
  
   
- 
+    

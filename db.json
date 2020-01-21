@@ -39,5 +39,18 @@
             "called": "dogs",
             "description": "The domestic dog (Canis lupus familiaris when considered a subspecies of the wolf or Canis familiaris when considered a distinct species) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore. The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct. The dog was the first species to be domesticated, and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes."
         }
+    ],
+
+    "information" : [
+        {   "infoId":1,
+            "petinformation":  "caacacacaca"},
+        {   "infoId":2,
+            "petinformation":  "ananananana"},
+        {   "infoId":3,
+            "petinformation": "bebeebebebeb" },
+        {   "infoId":4,
+            "petinformation":  "gogoggogoggogo"},
+        {   "infoId":5,
+            "petinformation":  "ododdododoodo"}
     ]
 }

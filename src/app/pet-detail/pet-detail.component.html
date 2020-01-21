@@ -1,23 +1,23 @@
 <label>
-    type:<input type="text" placeholder="pet_type"  [(ngModel)] ="petType"> 
-</label> 
-<button type="submit" (click)="onSubmit()">Submit</button>
-
-
-<div *ngFor="let animal of selectedPet">
+        type:<input type="text" placeholder="pet_type"  [(ngModel)] ="petType"> 
+    </label> 
+    <button type="submit" (click)="onSubmit()">Submit</button>
     
-    <div *ngIf="animal">
-
-    <h2>{{animal.called}} Details</h2>
-        <div>
-            <span class="badge"> id: </span> {{animal.id}} <br>   
-            <p> title: {{animal.title}}</p>  
-            <p>called: {{animal.called}}</p> 
-            <p>description: {{animal.description}}</p>  
+    
+    <div *ngFor="let animal of selectedPet">
+        
+        <div *ngIf="animal">
+    
+        <h2>{{animal.called}} Details</h2>
+            <div>
+                <span class="badge"> id: </span> {{animal.id}} <br>   
+                <p> title: {{animal.title}}</p>  
+                <p>called: {{animal.called}}</p> 
+                <p>description: {{animal.description}}</p>  
+            </div>
+            <br>
+            <br>
         </div>
-        <br>
-        <br>
+          
     </div>
-      
-</div>
 
