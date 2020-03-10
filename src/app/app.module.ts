@@ -11,6 +11,15 @@ import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { RegisterComponent } from './register/register.component';
+import { MoreDetailsComponent } from './more-details/more-details.component';
+import { MatToolbarModule,
+         MatIconModule,
+         MatCardModule,
+         MatButtonModule,
+         MatProgressSpinnerModule } from '@angular/material';
+import { PaginationModule } from './pagination/pagination.module';
+import { TruncatePipe } from './truncate.pipe';
+import { TruncateTextComponent } from './truncate-text/truncate-text.component';
 
 
 @NgModule({
@@ -20,9 +29,11 @@ import { RegisterComponent } from './register/register.component';
     PetDetailComponent,
     DashboardComponent,
     LoginComponent,
-    RegisterComponent
-    //ShowMorePipe
-  ],
+    RegisterComponent,
+    MoreDetailsComponent,
+    TruncatePipe,
+    TruncateTextComponent
+    ],
   imports: [
     HttpClientModule,
     BrowserModule,
@@ -30,9 +41,15 @@ import { RegisterComponent } from './register/register.component';
     FormsModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatCardModule,
+    MatButtonModule,
+    MatProgressSpinnerModule,
+    PaginationModule
   ],
-  providers: [],
+  providers: [TruncatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

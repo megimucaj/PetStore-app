@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PetService } from '../pet.service';
-import { ActivatedRoute, Params } from '@angular/router';
+import { Pets } from './pets';
 
 
 @Component({
@@ -10,20 +10,17 @@ import { ActivatedRoute, Params } from '@angular/router';
 })
 
 export class PetListComponent implements OnInit {
+  @Input() pets: Pets;
   petList: any;
   
+  
   constructor (private petService : PetService) {
-
-
-  }
+}
 
   ngOnInit() { 
     this.petService.getPets().subscribe(
     (data)=>{this.petList = data;
     console.log(this.petList);
     })
-   
-
-    
   }
 }

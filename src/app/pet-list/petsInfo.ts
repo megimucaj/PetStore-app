@@ -1,9 +1,10 @@
 export interface IPetsInfo{
-    petInfo: string;
+    infoId: number;
+    petinformation: string;
 }
 export class PetsInfo{
 
 //short form
-    constructor(public petInfo : string){
+    constructor( public infoId : number, public petinformation : string ){
     }
 }

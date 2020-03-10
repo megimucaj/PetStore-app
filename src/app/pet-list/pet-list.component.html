@@ -1,9 +1,9 @@
-<h2>Our pet-list</h2>
+<h2 >Our pet-list</h2>
 
 <ul class="pets">
    <li *ngFor="let pets of petList" >
+      
       <a routerLink="/detail/{{pets.called}}" >
-         
          <span class="badge"> {{pets.id}} </span> {{pets.called}}
       </a><br><br><br>
 

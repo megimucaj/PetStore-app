@@ -3,16 +3,18 @@
         {
             "id": 1,
             "title": "pets",
-            "type":"memmal",
-            "called": "cat",
-            "description": "The cat (Felis catus) is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat or a farm cat, which are pets, or a feral cat, which ranges freely and avoids human contact.House cats are valued by humans for companionship and for their ability to hunt rodents. About 60 cat breeds are recognized by various cat registries."
+            "type":"memmals",
+            "called": "cats",
+            "src": "/assets/img/Gem2-1500x1346.jpg",
+            "description": "The cat (Felis catus) is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat or a farm cat, which are pets, or a feral cat, which ranges freely and avoids human contact.House cats are valued by humans for companionship and for their ability to hunt rodents. About 60 cat breeds are recognized by various cat registries. The cat is similar in anatomy to the other felid species, has a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling and grunting as well as cat-specific body language. It is a solitary hunter, but a social species. It can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small mammals. It is a predator that is most active at dawn and dusk.[7] It secretes and perceives pheromones.Female domestic cats can have kittens from spring to late autumn, with litter sizes ranging from two to five kittens.[9] Domestic cats are bred and shown as registered pedigreed cats, a hobby known as cat fancy. Failure to control breeding of pet cats by spaying and neutering, as well as abandonment of pets, resulted in large numbers of feral cats worldwide, contributing to the extinction of entire bird species, and evoking population control."
         },
 
         {
             "id": 2,
             "title": "pets",
-            "type":"bird",
+            "type":"birds",
             "called": "canaries",
+            "src": "/assets/img/bird.jpg ",
             "description": "The domestic canary, often simply known as the canary (Serinus canaria forma domestica), is a domesticated form of the wild canary, a small songbird in the finch family originating from the Macaronesian Islands (the Azores, Madeira and the Canary Islands). Canaries were first bred in captivity in the 17th century. They were brought over by Spanish sailors to Europe. "
         },
 
@@ -21,6 +23,7 @@
             "title": "pets",
             "type":"arthropods",
             "called": "bees",
+            "src": "/assets/img/bee-2228598-960-720-1280x640.jpg ",
             "description": "Bees are flying insects closely related to wasps and ants, known for their role in pollination and, in the case of the best-known bee species, the western honey bee, for producing honey and beeswax. Bees are a monophyletic lineage within the superfamily Apoidea and are presently considered a clade, called Anthophila. There are over 16,000 known species of bees in seven recognized biological families. They are found on every continent except Antarctica, in every habitat on the planet that contains insect-pollinated flowering plants."
         },
 
@@ -28,29 +31,83 @@
             "id": 4,
             "title": "pets",
             "type":"fish",
-            "called": "goldfish",
+            "called": "goldfishs",
+            "src": "/assets/img/170814-Goldfish-Full.jpg",
             "description": "The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes. It is one of the most commonly kept aquarium fish. A relatively small member of the carp family (which also includes the Prussian carp and the crucian carp), the goldfish is native to East Asia. It was first selectively bred in ancient China more than 1,000 years ago, and several distinct breeds have since been developed. Goldfish breeds vary greatly in size, body shape, fin configuration and coloration (various combinations of white, yellow, orange, red, brown, and black are known)."
         },
 
         {
             "id": 5,
             "title": "pets",
-            "type":"memmal",
+            "type":"memmals",
             "called": "dogs",
+            "src": "/assets/img/problems-older-dog-main.jpg",
             "description": "The domestic dog (Canis lupus familiaris when considered a subspecies of the wolf or Canis familiaris when considered a distinct species) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore. The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct. The dog was the first species to be domesticated, and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes."
         }
     ],
 
-    "information" : [
-        {   "infoId":1,
-            "petinformation":  "caacacacaca"},
-        {   "infoId":2,
-            "petinformation":  "ananananana"},
-        {   "infoId":3,
-            "petinformation": "bebeebebebeb" },
-        {   "infoId":4,
-            "petinformation":  "gogoggogoggogo"},
-        {   "infoId":5,
-            "petinformation":  "ododdododoodo"}
+ 
+
+    "moreDetails" : [
+        {   "id": 1,
+            "postId": 1,
+            "petinformation": [
+               {"id":"1aa",
+                "generation": "pomerian",
+                "pomerian": "Descended from large sled dog breeds, the now-tiny Pomeranian has a long and interesting history. The foxy-faced dog, nicknamed “the little dog who thinks he can,” is compact, active, and capable of competing in agility and obedience or simply being a family friend. Pomeranians have some of the most amazing, soft coats in the history of dogs.Furthermore, their double coat, which needs regular grooming, can come in over 18 different colors, according to the American Kennel Club. White, black, brown, red, orange, cream, blue, sable, and black and tan are just a few of the color variations your Pomeranian pup can have in their early years.Pomeranian coats are a bit “magical,” though. They can gradually change over time. You may come home with a brown Pomeranian with speckles of tan that turns into a beautiful lighter coat over time."
+                },
+               {"id":"2bb",
+                "generation": "pomchi",
+                "pomchi": "The Pomchi is a mixed-breed dog–a cross between the Pomeranian and the Chihuahua dog breeds. Playful, devoted, and energetic, these small pups inherited some of the best qualities from both of their parents.Pomchis go by several names, including Pomahuahua, Chimeranian, Chi-Pom, and Pom-Chi. Despite their unfortunate status as a designer breed, you can find these mixed-breed dogs in shelters and breed-specific rescues, so remember to adopt! Don’t shop!"
+               },
+               {"id":"3cc",
+                "generation": "rottle",
+                "rottle": "The Rottle is a mixed breed dog–a cross between the Rottweiler and Poodle dog breeds. Playful, intelligent, and eager to please, these pups inherited some of the best qualities from both of their parents.Rottles go by several names, including Rottipoo and Rottidoodle. Despite their unfortunate status as a designer breed, you may find these mixed breed dogs in shelters and breed specific rescues, so remember to adopt! Don’t shop!"
+               }
+               ]
+             },
+        {   "id":2,
+            "postId": 2,
+            "petinformation":  "ananananana"
+        },
+        {   "id": 3,
+            "postId": 3,
+            "petinformation": "bebeebebebeb" 
+        },
+        {   "id": 4,
+            "postId": 4,
+            "petinformation":  "gogoggogoggogo"
+        },
+        {   "id": 5,
+            "postId": 5,
+            "petinformation":  "ododdododoodo"
+        }
+    ],
+
+
+    "images" : [
+        {   "id": 1,
+            "postId": 1,
+            "src": "/assets/img/Gem2-1500x1346.jpg /assets/img/072319_ee_cat-allergy_feat.jpg"
+        },
+        {   "id": 2,
+            "postId": 2,
+            "src": "/assets/img/bird.jpg" 
+        },
+        {   "id": 3,
+            "postId": 3,
+            "src": "/assets/img/maine-coon-cat.jpg"     
+        },
+        {   "id": 4,
+            "postId": 4,
+            "src": "/assets/img/kitten-440379.jpg" 
+     
+        },
+        {   "id": 5,
+            "postId": 5,
+            "src": "/assets/img/cat-quotes-1543599392.jpg" 
+      
+        }
+
     ]
 }

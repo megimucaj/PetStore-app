@@ -8,7 +8,6 @@ import { PetService } from '../pet.service';
 })
 export class DashboardComponent implements OnInit {
   petList: any;
-  id: any;
   constructor(private petService : PetService) {
   }
 

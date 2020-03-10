@@ -1,14 +1,14 @@
-<h1> {{ title }} </h1>
+<mat-toolbar color="primary">  
 
-<nav>
-    <a routerLink='/petList'>Pet List</a>
-    <br><br>
-    <a routerLink='/dashboard'>Dashboard</a>
-    <br><br>
-    <a routerLink='/login'>Login</a>
-    <br><br>
-    <br><br>
+    <h1 style="color: aliceblue;"> 
+        <button mat-button routerLink="/dashboard">{{ title }}</button>
+    </h1>
+ 
+    <button mat-button routerLink="/petList">Pet List</button>  
+    <button mat-button routerLink="/dashboard">Dashboard</button>
+    <button mat-button routerLink="/register">Register</button>
+    <button mat-button routerLink="/login">LogIn</button>
 
-</nav>
 
+</mat-toolbar>
 <router-outlet></router-outlet>
